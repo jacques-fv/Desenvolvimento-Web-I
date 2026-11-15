@@ -2,10 +2,87 @@
     <head>
         <meta charset="UTF-8">
         <title>login</title>
+
+<style>
+    body {
+        background-color: #f3f8f4;
+        font-family: Arial, sans-serif;
+        color: #365b46;
+    }
+
+    h1 {
+        color: #195d40;
+        font-size: 28px;
+    }
+
+    h2 {
+        color: #26754d;
+        font-size: 22px;
+    }
+
+    p {
+        color: #486455;
+    }
+
+    label {
+        color: #195d40;
+    }
+
+    input {
+        border: 1px solid #82b99a;
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+    img {
+        width: 120px;
+        height: auto;
+    }
+
+    a {
+        color: #26754d;
+    }
+    .imagem-login {
+    width: 120px;
+    height: auto;
+}
+.botao {
+    background-color: #26754d;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.botao:hover {
+    background-color: #154d32;
+}
+body {
+    background-color: #f3f8f4;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.login {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #cccccc;
+}
+</style>
+
     </head>
     <body>
+        <div class="login">
         <h1>Clínica Estudantil IFCE</h1>
-        <img src="../imagem/login_2.png"width="280"/><br>
+        <img src="../imagem/login_2.png" class="imagem-login"><br>
         <h2>Bem Vindo(a)!</h2>
         <p>Faça login para acessar o sistema administrativo da Clínica Estudantil </p>
         <label>Usuário ou E-mail:</label><br>
@@ -13,10 +90,11 @@
         <label>Senha</label><br>
         <input type="text"/>
         <p>Esqueceu a senha?</p>
-        <a href="menu.html"><h5>ENTRAR</h5></a>
+        <a href="menu.html" class="botao">ENTRAR</a>
         <p>ou</p>
         <p>Primeiro acesso?</p>
         <p>Solicite seu cadastro junto ao administrador do sistema</p>
+    </div>
     </body>
 
 </html>
