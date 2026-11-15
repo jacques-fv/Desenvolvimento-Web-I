@@ -1,0 +1,145 @@
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 180px;
+                background-color: #f2f2f2;
+                position: fixed;
+                height: 100%;
+                left:0;
+                top:0;
+                
+            }
+            li a{
+                display: block;
+                padding:14px;
+                text-decoration:none;
+                color:black;
+            }
+            li a:hover{
+                background-color:#dddddd;
+            }
+            body{
+                margin-left:200px;
+            }
+            .atalhos{
+                display:flex;
+                justify-content: flex-start;
+                gap:90px;
+                text-align:center;
+            }
+
+            .seguranca {
+                text-align: center;
+                margin-top: 50px;
+                padding: 20px;
+                background-color: #e8f3ec;
+                border: 1px solid #b8d8c4;
+                border-radius: 10px;
+                width: 600px;
+                margin-left: auto;
+                margin-right: auto
+            }
+            h1, h2, h4 {
+                color: #195d40;
+            }
+
+            p {
+                color: #365b46;
+            }
+
+            body {
+                background-color: #f3f8f4;
+                font-family: Arial, sans-serif;
+            }
+            .opcoes-pacientes {
+                display: flex;
+                justify-content: flex-start;
+                padding-left:200px;
+                gap: 80px;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            .opcoes-pacientes a {
+                width: 230px;
+            }
+            .opcoes-pacientes a {
+                background-color: #d9eee2;
+                border: 1px solid #b8d8c4;
+                border-radius: 10px;
+                padding: 20px;
+            }
+            .formulario {
+                width: 90%;
+                margin: 20px auto;
+            }
+            .dados-pessoais {
+                display: grid;
+                grid-template-columns: 400px 400px;
+                gap: 30px;
+            }
+            .dados-pessoais > div {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                flex-wrap:nowrap;
+                min-width:0;
+            }
+
+            .dados-pessoais label {
+                width: 150px;
+                flex-shrink:0;
+                display:block
+            }
+            .dados-pessoais input {
+                width: 150px;
+                box-sizing: border-box;
+            }
+
+
+
+            .dados-endereco {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 30px;
+}
+
+.dados-endereco > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dados-endereco label {
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.dados-endereco input {
+    width: 150px;
+    box-sizing: border-box;
+}
+.dados-outros {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 30px;
+}
+
+.dados-outros > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dados-outros label {
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.dados-outros input {
+    width: 150px;
+    box-sizing: border-box;
+}
+
+
